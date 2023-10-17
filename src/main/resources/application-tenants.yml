@@ -2,7 +2,7 @@ bpmns:
   tenants:
     - id: "lion"
       flows:
-        payment-transfer: "minimal_mock_fund_transfer_{dfspid}"
+        payment-transfer: "minimal_mock_fund_transfer.{dfspid}"
     - id: "gorilla"
       flows:
         payment-transfer: "PayerFundTransfer-{dfspid}"
